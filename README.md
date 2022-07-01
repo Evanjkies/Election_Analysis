@@ -40,3 +40,6 @@ The analyis of the county voting data show that:
 - Jefferson, Denver and Arapahoe were the counties that had votes recorded
 - Jefferson had 10.5% of the vote, Denver has 82.8% of the vote, and Arapahoe had 6.7% of the vote
 - The largest county turnout was Denver with 306,055 votes accounting for 82.8% of the total vote
+
+## Buisiness Proposal
+I believe that this code could be applied to larger sets of election data with more candidates as well as more variables such as voter charateristics. If information about a voter such as their age or gender were to be added to the data set, another set of variables can be added at the top and with another for loop and a simple if statement, we could break down the data by gender or age range. This would prove useful to determine how a candidate polled amongst certain crowds. Another small piece of code that could be added to make the information more easily accessable would be the winning margin. This would jus take an additional condition to the existing loop that determines the winner where a second place finisher is established and then the votes assigned to this candidate name can be pulled from the ky as well as the percentage of votes accounted for by this candidate, and they can be subtracted from the winners same variable amounts.
